@@ -1,0 +1,64 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+header {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100%;
+}
+
+.container {
+    display: block;
+    height: fit-content;
+    margin: 20px 10px;
+    width: 500px;
+}
+
+.questions {
+    font-size: 40px;
+    text-decoration: wavy;
+    margin: 20px 10px;
+}
+
+.answer {
+    display: flex;
+}
+
+.options button {
+    padding: 10px;
+    border-radius: 50%;
+}
+
+p {
+    display: inline;
+}
+
+button {
+    margin: 40px;
+    padding: 10px 15px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
